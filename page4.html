@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Your Profile</title>
+    <link rel="stylesheet" href="page4.css">
+</head>
+<body>
+    <!-- Background Overlay -->
+    <div class="overlay">
+        <!-- Modal Container -->
+        <div class="modal">
+            <!-- Header Section -->
+            <div class="modal-header">
+                <h3> Set your profile</h3>
+            </div>
+
+            <!-- Tabs -->
+            <div class="tabs">
+                <button class="tab active">Personal Information</button>
+                <button class="tab"><a href="page5.html">Set your goals</a></button>
+            </div>
+
+            <!-- Form Section -->
+            <form class="modal-form">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" placeholder="Enter your full name">
+
+                <label for="location">Your Location</label>
+                <input type="text" id="location" placeholder="Enter your location">
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob">
+
+                <label for="height">Your Height in cm</label>
+                <input type="number" id="height" placeholder="Enter height in cm">
+
+                <label for="weight">Your Weight in kg</label>
+                <input type="number" id="weight" placeholder="Enter weight in kg">
+
+                <!-- Buttons -->
+                <div class="buttons">
+                    <button type="button" class="cancel-btn" ><a href="page3.html">Cancel</a></button>
+                    <button type="submit" class="save-btn"><a href="page5.html">Save</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
